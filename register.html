@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+    <div class="topbar orange">
+        <div class="container">
+            <div class="topbar-l">
+                <ul class="toplist">
+                    <li class="rightl">Customer Care</li>
+                    <li>(888) 123-4567</li>
+                </ul>
+            </div>
+                      
+                                  
+            <div class="topbar-r pull">
+                <ul class="toplist">
+                    <li class="line"><a href="#">Login</a></li>
+                    <li class="line"><a href="register.html">Register</a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google"></i></a></li>
+                    <li class="last"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="nav-wrapper">
+        <div class="container">
+            <nav>
+                <div class="grid-header">
+                    <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt=""></a>
+                </div>
+                <ul>
+                        <li class="active-item"><a href="index.html" style="color:#fd602c">Home</a></li>
+                        <li><a href="about.html" class="dropdown-toggle">Pages</a></li>
+                        <li><a href="team.html" class="dropdown-toggle">Features</a></li>
+                        <li><a href="services4.html" class="dropdown-toggle">Shortcodes</a></li>
+                        <li><a  href="career.html" class="dropdown-toggle">Career</a></li>
+                        <li><a  href="faq.html" class="dropdown-toggle">Layouts</a></li>
+                        <li><a  href="portfolio.html" class="dropdown-toggle">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section>
+        <div class="header-inner two">
+            <div class="inner text-center">
+                <h4 class="title text-white uppercase">We Are Hasta</h4>
+                <h5 class="text-white uppercase">Get Many More Features</h5>
+            </div>                  
+                <img src="images/741 (1).jpg" alt="" class="img-responsive" style="width:100%">
+        </div>
+    </section>
+    <div class="pagenation-holder">
+            <div class="container">
+                <div class="row" style="padding:30px 0;">
+                    <div class="col-md-6" >
+                        <h3 style="text-align:left">Registration form</h3>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <div class="pagenation_links" style="color:rgb(201, 200, 200)"><a href="index.html">Home</a><i> / </i> <a href="index.html">Pages</a> <i> / </i>Registration form
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-centered">
+                    <form name="myForm" onsubmit="return validateForm()">
+                        <h3>Registretion Form</h3>
+
+                        
+                        <br>
+                        <h6>Your name</h6>
+                        <div class="form-row">
+                            <input type="text" class="firstName" name="firstName" placeholder="First name...">
+                            <input type="text" class="lastName"  name="lastName" placeholder="Last name...">
+                        </div>
+                        <br>
+                        <h6>Choose your username</h6>
+                        <div class="form-row">
+                                <input type="text" class="userName" name="userName" placeholder="John Doe..." style="width:450px;">
+                                <button>.envato.com</button>
+                        </div>
+                        <br><h6>Create a password</h6>
+                        <div class="form-row">
+                                <input type="password" class="password" name="password" placeholder="password..." style="width:450px;">                                
+                        </div>
+                        <br><h6>Create a password</h6>
+                        <div class="form-row">
+                                <input type="password" class="replacePassword" name="replacePassword" placeholder="replacePassword..." style="width:450px;">                                
+                        </div>
+                        <br><br><h6>Your birthday</h6>
+                        <div class="form-row">
+                                <select id="month" name="month">
+                                    <option value="01">01 - Jan</option>
+                                    <option value="02">02 - Feb</option>
+                                    <option value="03">03 - Mar</option>
+                                    <option value="04">04 - Apr</option>
+                                    <option value="05">05 - May</option>
+                                    <option value="06">06 - Jun</option>
+                                    <option value="07">07 - Jul</option>
+                                    <option value="08">08 - Aug</option>
+                                    <option value="09">09 - Sep</option>
+                                    <option value="10">10 - Oct</option>
+                                    <option value="11">11 - Nov</option>
+                                    <option value="12">12 - Dec</option>
+                                </select>  
+                                <input type="text" name="day" id="day" class="gui-input" placeholder="Day...">
+                                <input type="text" name="year" id="year" class="gui-input" placeholder="Year...">                             
+                        </div>
+                        <br><h6>Your Country</h6>
+                        <div class="form-row">
+                            <select id="location" name="location">
+                                <option value="">Select country...</option>
+                                <option value="AL">Albania</option>
+                                <option value="AR">Argentina</option>
+                                <option value="AZ">Azerbaijan Republic</option>
+                                <option value="BE">Belgium</option>
+                                <option value="NO">Norway</option>
+                                <option value="PT">Portugal</option>
+                                <option value="RO">Romania</option>
+                                <option value="RU">Russia</option>
+                                <option value="ES">Spain</option>
+                                <option value="SE">Sweden</option>
+                                <option value="CH">Switzerland</option>
+                                <option value="TR">Turkey</option>
+                                <option value="TM">Turkmenistan</option>
+                                <option value="UA">Ukraine</option>
+                                <option value="GB">United Kingdom</option>
+                                <option value="US">United States</option>
+                                <option value="VE">Venezuela</option>                                   
+                            </select>
+                        </div>
+                        <br><h6>Your email</h6>
+                        <div class="form-row">
+                            <input type="email" name="email" id="email" class="gui-input" placeholder="example@domain.com...">
+                        </div>
+                        <br><h6>Phone number</h6>
+                        <div class="form-row">
+                            <input type="tel" name="mobilePhone" id="mobile" class="gui-input" placeholder="+256">
+                        </div>
+                        <br><h6>Phone number</h6>
+                        <div class="form-row">
+                            <label for="verify" class="button">4 + 12</label>
+                            <input type="text" name="verify" id="verify" class="gui-input" placeholder="Enter captcha">
+                        </div>
+                        <div class="form-row">
+                                <label class="option">
+                                    <input type="checkbox" name="check1">
+                                    <span class="checkbox"></span> 
+                                      Agree to our <a href="#" class="smart-link"> terms of service </a>                   
+                                </label>
+                        </div>
+                        <button type="submit"  name="submit" class="submit">Create Account</button>
+                    </form>
+
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <button class="scroll-top" style="opacity: 1; display: block;"><i class="fas fa-chevron-up"></i></button>
+
+
+    <script src="js/app.js"></script>
+
+    <script src="js/register.js"></script>
+</body>
+</html>
